@@ -101,18 +101,17 @@ section .wave.wave1 {
 
 .mellemsection {
     background: #fff;
-    height: 100vh;
+    height: 90vh;
 }
 
 .cirkel {
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
     -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
     -webkit-border-radius: 50%;
     display: flex;
     text-align: center;
-    max-width: 700px;
+    max-width: 600px;
     z-index: 1000;
 }
 
@@ -142,6 +141,18 @@ section .omvendtwave.omvendtwave1 {
     100% {
         background-position-x: 1000px;
     }
+}
+
+
+
+.tekst1 {
+    color: white;
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: justify;
 }
 
 
