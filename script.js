@@ -40,3 +40,4 @@ const AVIndholdsliste = [];
 
 
 AVIndholdsliste[0] = document.getElementById("video");
+AVIndholdsliste[1] = document.getElementById("video1");
