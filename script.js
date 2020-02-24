@@ -34,10 +34,10 @@ window.addEventListener("scroll", function () {
 });
 
 
-const AVIdListe = ["video"];
+const AVIdListe = ["video", "videoen"];
 const AVIndholdsliste = [];
 
 
 
 AVIndholdsliste[0] = document.getElementById("video");
-AVIndholdsliste[1] = document.getElementById("video1");
+AVIndholdsliste[1] = document.getElementById("videoen");
