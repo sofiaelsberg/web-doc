@@ -34,10 +34,11 @@ window.addEventListener("scroll", function () {
 });
 
 
-const AVIdListe = ["video", "vises"];
+const AVIdListe = ["video", "videoen", "vises"];
 const AVIndholdsliste = [];
 
 
 
 AVIndholdsliste[0] = document.getElementById("video");
-AVIndholdsliste[1] = document.getElementById("vises");
+AVIndholdsliste[1] = document.getElementById("videoen");
+AVIndholdsliste[2] = document.getElementById("vises");
