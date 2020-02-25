@@ -133,6 +133,23 @@ section .omvendtwave.omvendtwave1 {
     bottom: 0;
 }
 
+section .waveblaa {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    background: url(blaaa.png);
+    background-size: 1000px 100px;
+}
+
+section .waveblaa.waveblaa1 {
+    animation: animate 30s linear infinite;
+    z-index: 999;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
 @keyframes animate {
     0% {
         background-position-x: 0;
@@ -179,6 +196,8 @@ section .omvendtwave.omvendtwave1 {
     color: #fde3a7;
 }
 
+/*
+
 figure {
     margin: 0;
     position: relative;
@@ -220,7 +239,7 @@ video {
     min-width: 100%;
     z-index: -9999;
 }
-
+*/
 
 
 
