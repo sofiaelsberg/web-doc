@@ -201,6 +201,7 @@ section .waveblaa.waveblaa1 {
     height: 100%;
     margin-bottom: 0px;
     padding: 0px;
+    background-color: #5b727e;
 }
 
 #videoen {
@@ -208,113 +209,164 @@ section .waveblaa.waveblaa1 {
     padding: 0;
 }
 
-/*
+/* SOF TRYLLER */
+.content {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'NexaW01-Black';
+}
 
-figure {
-    margin: 0;
+.slider-wrapper {
+    font-size: 40px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    font-size: 40px;
+    height: 50px;
+    padding-left: 0px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: -800px;
+    margin-top: 125px;
+}
+
+.slider div {
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 25px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.slider-text1 {
+    background: #C3DBC5;
+    animation: slide 7s linear infinite;
+}
+
+.slider-text2 {
+    background: #E8DCB9;
+}
+
+.slider-text3 {
+    background: #F2CEE6;
+}
+
+.hos {
+    font-size: 50px;
+}
+
+.buy {
     position: relative;
+    top: 65px;
+    left: -835px;
+
 }
 
-figure h1 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    border-right: 3px solid #fff;
-    padding: 5px 10px 5px 5px;
-}
-
-video {
-    width: 100%;
-    max-width: 100%;
-}
-
-.stretch {
-    height: 2000px;
-    background: #5b727e;
-    min-height: 100%;
-    min-width: 100%;
-    background-size: cover;
-    margin-top: 800px;
-}
-
-.stretch h1 {
-    padding: 20px;
-}
-
-.hero-wrapper {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    height: auto;
-    width: auto;
-    min-height: 100%;
-    min-width: 100%;
-    z-index: -9999;
-}
-*/
-
-
-
-
-/* Extra small devices (phones, 600px and down) KUN HELT SPECIFIKT FOR MOBIL SOM IKKE KAN STÅ HEROVER*/
-@media only screen and (max-width: 600px) {
-    .visit {
-        margin: 50px;
-        margin-top: 200px;
-        text-align: center;
-        color: white;
-        font-size: 50px;
-        font-family: 'Canto';
+@keyframes slide {
+    0% {
+        margin-top: -300px;
     }
 
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-        font-family: 'Kohinoor Bangla';
-        font-weight: lighter;
+    5% {
+        margin-top: -200px;
     }
 
-    .flex1 p {
-        padding-right: 12px;
+    33% {
+        margin-top: -200px;
     }
 
-    .flex1 {
-        color: white;
-        margin-left: 70px;
-        font-size: 12px;
-        line-height: 22px;
+    38% {
+        margin-top: -100px;
     }
 
-    .flex2 {
-        margin-left: 0px;
-        margin-right: 70px;
-        font-size: 15px;
-        line-height: 22px;
-        color: #fde3a7;
+    66% {
+        margin-top: -100px;
+    }
+
+    71% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 0px;
     }
 
 
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {}
-
-    .flex-container {
-        flex-direction: row;
-
-    }
+    /* SOF FÆRDIG */
 
 
 
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (min-width: 768px) {
-        ...
-    }
 
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
-        ...
-    }
+    /* Extra small devices (phones, 600px and down) KUN HELT SPECIFIKT FOR MOBIL SOM IKKE KAN STÅ HEROVER*/
+    @media only screen and (max-width: 600px) {
+        .visit {
+            margin: 50px;
+            margin-top: 200px;
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            font-family: 'Canto';
+        }
 
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-        ...
-    }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            font-family: 'Kohinoor Bangla';
+            font-weight: lighter;
+        }
+
+        .flex1 p {
+            padding-right: 12px;
+        }
+
+        .flex1 {
+            color: white;
+            margin-left: 70px;
+            font-size: 12px;
+            line-height: 22px;
+        }
+
+        .flex2 {
+            margin-left: 0px;
+            margin-right: 70px;
+            font-size: 15px;
+            line-height: 22px;
+            color: #fde3a7;
+        }
+
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {}
+
+        .flex-container {
+            flex-direction: row;
+
+        }
+
+
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            ...
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            ...
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            ...
+        }
