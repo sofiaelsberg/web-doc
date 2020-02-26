@@ -116,8 +116,6 @@ section {
     position: relative;
     width: 100%;
     padding-bottom: 100px;
-
-
 }
 
 
@@ -217,6 +215,7 @@ section .waveblaa.waveblaa1 {
     font-weight: lighter;
     margin-left: 200px;
     margin-right: 200px;
+    text-align: justify;
 }
 
 
