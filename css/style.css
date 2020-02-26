@@ -13,6 +13,7 @@ body {
     margin-right: 200px;
     padding-bottom: 100px;
     padding-top: 100px;
+    justify-content: center;
 }
 
 .story-wrap {
@@ -23,11 +24,11 @@ body {
 .storytekst {
     color: #FFF;
     font-family: 'Kohinoor Bangla';
-    font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8em;
     padding-right: 40px;
     margin-top: 0px;
+    justify-content: center;
 }
 
 .story-img {
@@ -61,7 +62,7 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 60%;
 
 }
 
@@ -83,7 +84,7 @@ path {
     }
 
     30% {
-        opacity: 10;
+        opacity: 10%;
         fill: none;
         stroke-dashoffset: 1800;
     }
@@ -94,7 +95,7 @@ path {
     }
 
     100% {
-        opacity: 10;
+        opacity: 10%;
         fill: rgba(255, 255, 255, 1);
         stroke-dashoffset: 0;
     }
@@ -118,15 +119,6 @@ section {
 
 
 }
-
-/*h1 {
-    font-family: 'Archivo Black', sans-serif;
-    color: #fff;
-    font-size: 100px;
-    margin-top: 200px;
-    margin-bottom: 40px;
-    text-align: center;
-}*/
 
 
 section .wave {
@@ -223,26 +215,17 @@ section .waveblaa.waveblaa1 {
     flex-direction: row;
     font-family: 'Kohinoor Bangla';
     font-weight: lighter;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
-.flex1 p {
-    padding-right: 150px;
-}
 
 .flex1 {
     color: white;
-    margin-left: 300px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 27px;
+    justify-content: center;
 
-}
-
-.flex2 {
-    margin-left: 0px;
-    margin-right: 300px;
-    font-size: 20px;
-    line-height: 27px;
-    color: #fde3a7;
 }
 
 #hej {
@@ -319,7 +302,6 @@ section .waveblaa.waveblaa1 {
     position: relative;
     top: 65px;
     left: -835px;
-
 }
 
 @keyframes slide {
@@ -350,74 +332,69 @@ section .waveblaa.waveblaa1 {
     100% {
         margin-top: 0px;
     }
-
-
-    /* SOF FÆRDIG */
-
-
-    /* SOF TRYLLER MED FLEX */
-
-    /* SOF FÆRDIG IGEN */
-
-    /* Extra small devices (phones, 600px and down) KUN HELT SPECIFIKT FOR MOBIL SOM IKKE KAN STÅ HEROVER*/
-    @media only screen and (max-width: 600px) {
-        .visit {
-            margin: 50px;
-            margin-top: 200px;
-            text-align: center;
-            color: white;
-            font-size: 50px;
-            font-family: 'Canto';
-        }
-
-        .flex-container {
-            display: flex;
-            flex-direction: row;
-            font-family: 'Kohinoor Bangla';
-            font-weight: lighter;
-        }
-
-        .flex1 p {
-            padding-right: 12px;
-        }
-
-        .flex1 {
-            color: white;
-            margin-left: 70px;
-            font-size: 12px;
-            line-height: 22px;
-        }
-
-        .flex2 {
-            margin-left: 0px;
-            margin-right: 70px;
-            font-size: 15px;
-            line-height: 22px;
-            color: #fde3a7;
-        }
-
-
-        /* Small devices (portrait tablets and large phones, 600px and up) */
-        @media only screen and (min-width: 600px) {}
-
-        .flex-container {
-            flex-direction: row;
-
-        }
+}
 
 
 
-        /* Medium devices (landscape tablets, 768px and up) */
-        @media only screen and (min-width: 768px) {
-            ...
-        }
 
-        /* Large devices (laptops/desktops, 992px and up) */
-        @media only screen and (min-width: 992px) {
-            ...
-        }
+/* Extra small devices (phones, 600px and down) KUN HELT SPECIFIKT FOR MOBIL SOM IKKE KAN STÅ HEROVER*/
+@media only screen and (max-width: 600px) {
+    .visit {
+        margin: 50px;
+        margin-top: 200px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        font-family: 'Canto';
+    }
 
-        /* Extra large devices (large laptops and desktops, 1200px and up) */
-        @media only screen and (min-width: 1200px) {
-            ...
-        }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Kohinoor Bangla';
+        font-weight: lighter;
+    }
+
+    .flex1 p {
+        padding-right: 12px;
+    }
+
+    .flex1 {
+        color: white;
+        margin-left: 70px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .storycontainer {
+        flex-direction: column;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .flex-container {
+        flex-direction: row;
+
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
